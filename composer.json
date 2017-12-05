@@ -1,0 +1,25 @@
+{
+    "name": "thuyennv/showtimes",
+    "description": "package showtimes",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "author": {
+        "name": "Thuyennv",
+        "email": "thuyennv.hust@gmail.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thuyennv\\Showtimes\\": "src/"
+        }
+    },
+    "extra": {
+        "providers": [
+            "Thuyennv\\Showtimes\\ThuyennvServiceProvider"
+        ]
+    },
+    "minimum-stability": "dev"
+}
